@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+Welcome $name to Javayou.com!
+
+today is $date.
+
+#set($name = "hello") 
+
+$name
+
+#set($monkey = $name)
+#set($monkey.Friend="monica")
+#set($monkey.Blame=$whitehouse.Leak)
+#set($monkey.Plan=$spindoctor.weave($name))
+#set($monkey.Number=1234)
+#set($monkey.Say=["Not",$name,"fault"])
+
+{$monkey.Number}
+
+Ñ­»·
+#set($list=["pine","oak","maple"])
+#foreach ($element in $list)
+$velocityCount
+This is $element
+#end
+
+Second example
+#foreach ($foo in [1..5])
+    $foo
+#end
+
+
+Second example
+#foreach ($foo in [2..-2])
+    $foo
+#end
+
+#set($i=9)
+#if($i>6)
+    sdf
+#elseif($i==9)
+#else
+    9999
+#end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
